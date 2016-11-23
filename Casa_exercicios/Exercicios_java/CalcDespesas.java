@@ -6,7 +6,7 @@ public class CalcDespesas {
 
 	public CalcDespesas() {
 		
-		int qtd,valor,media=0,media_ano;
+		int qtd,valor,media=0;
 		String despesa; 
 		
 		System.out.println("Bem Vindo a calculadora de gastos");
@@ -24,9 +24,8 @@ public class CalcDespesas {
 			media = media + valor;
 		}
 			
-			media_ano = media *12;
 		
-		System.out.println("Tera que fazer um investimento anual de " + media_ano +"€" +"\nO que equivale a " + media + "€ por mes");
+		System.out.println("Tera que fazer um investimento anual de " + media*12 +"â‚¬" +"\nO que equivale a " + media + "â‚¬ por mes");
 		
 	}
 
