@@ -6,7 +6,7 @@ public class CalcDespesas {
 
 	public CalcDespesas() {
 		
-		int qtd,valor,media=0;
+		double qtd,valor,media=0;
 		String despesa; 
 		
 		System.out.println("Bem Vindo a calculadora de gastos");
