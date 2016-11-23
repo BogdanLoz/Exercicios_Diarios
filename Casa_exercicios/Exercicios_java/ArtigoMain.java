@@ -14,17 +14,17 @@ public class ArtigoMain {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Bem Vindo a Loja");
-		System.out.println("Introduza o nome do 1บ Artigo");
+		System.out.println("Introduza o nome do 1ยบ Artigo");
 		String nomeA1 = input.next();
-		System.out.println("Introduza o preco do 1บ Artigo");
+		System.out.println("Introduza o preco do 1ยบ Artigo");
 		double precoA1 = input.nextInt();
-		System.out.println("Introduza o nome do 2บ Artigo");
+		System.out.println("Introduza o nome do 2ยบ Artigo");
 		String nomeA2 = input.next();
-		System.out.println("Introduza o nome do 2บ Artigo");
+		System.out.println("Introduza o preco do 2ยบ Artigo");
 		double precoA2 = input.nextInt();
-		System.out.println("Introduza o nome do 3บ Artigo");
+		System.out.println("Introduza o nome do 3ยบ Artigo");
 		String nomeA3 = input.next();
-		System.out.println("Introduza o preco do 3บ Artigo");
+		System.out.println("Introduza o preco do 3ยบ Artigo");
 		double precoA3 = input.nextInt();
 		
 		artigo1.setNome(nomeA1);
@@ -37,7 +37,7 @@ public class ArtigoMain {
 		
 		total = artigo1.getPreco() + artigo1.getPreco() + artigo1.getPreco();
 		
-		System.out.println("O valor total dos artigos e " + total + "€");
+		System.out.println("O valor total dos artigos e " + total + "โฌ");
 		
 		
 	}
